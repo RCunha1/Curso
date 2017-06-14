@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cursos</title>
 
-<jsp:include page="../../../importacoes.jsp"/>
+<jsp:include page="../../../importe.jsp"/>
 
 <script type="text/javascript">
 		$(function (){
@@ -37,9 +37,9 @@
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach items="${curso}" var="cr">
+				<c:forEach items="${Curso}" var="cr">
 					<tr>
-						<td>${cr.quantidade}</td>
+						<td>${cr.vagas}</td>
 						<td>${cr.descricao}</td>
 					</tr>
 				</c:forEach>

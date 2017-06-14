@@ -5,11 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cadastrar curso</title>
-<jsp:include page="../../../importacoes.jsp"/>
+<jsp:include page="../../../importe.jsp"/>
 
 <script type="text/javascript">
 	$(function (){
-		$('#txtCPF').number(true);
+		//$('#txtCPF').number(true);
 	})	
 </script>
 
@@ -21,12 +21,12 @@
 		<h2>Cadastro de cursos</h2>
 		<form action="gravar">
 			<div class="form-group">
-				<label for="txtQntVgs">Quantidade de vagas:</label> <input type="text"
-					name="quantidadeVgs" id="txtQntVgs" class="form-control" required><br />
+				<label for="quantidade">Quantidade de vagas:</label> <input type="text"
+					name="curso.vagas" id="txtQntVgs" class="form-control" required><br />
 			</div>
 			<div class="form-group">
-				<label for="txtDesc">Descrição do curso:</label> <input type="text"
-					name="curso.desc" id="txtDesc"  class="form-control" required><br />
+				<label for="descricao">Descrição do curso:</label> <input type="text"
+					name="curso.descricao" id="txtDesc"  class="form-control" required><br />
 			</div>
 			<input type="submit" value="gravar" class="btn btn-success">
 		</form>

@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Cadastro Curso</title>
-<jsp:include page="../../../importacoes.jsp"/>
+<jsp:include page="../../../importe.jsp"/>
 </head>
 <body>
 	<h2 class="alert alert-info">Item gravado com sucesso!</h2>
